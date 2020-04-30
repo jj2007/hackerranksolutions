@@ -1,0 +1,104 @@
+<testsuites name="jest tests" tests="5" failures="3" time="18.48">
+  <testsuite name="undefined" errors="0" failures="3" skipped="0" timestamp="2020-04-29T05:24:24" time="18.48" tests="5">
+    <testcase classname=" Navigation renders correctly" name=" Navigation renders correctly" time="0.382">
+    </testcase>
+    <testcase classname=" Initial articles render correctly" name=" Initial articles render correctly" time="0.031">
+      <failure>Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  [&quot;Artificial Mountains&quot;, &quot;200&quot;, &quot;2019-11-23&quot;]
+Received:
+  [&quot;Alphabet earnings&quot;, &quot;22&quot;, &quot;2011-11-23&quot;]
+
+Difference:
+
+- Expected
++ Received
+
+ Array [
+-  &quot;Artificial Mountains&quot;,
+-  &quot;200&quot;,
+-  &quot;2019-11-23&quot;,
++  &quot;Alphabet earnings&quot;,
++  &quot;22&quot;,
++  &quot;2011-11-23&quot;,
+ ]
+    at C:\Users\MQ512QE\Desktop\Hackerrank_React\2\src\App.test.js:102:36
+    at Array.forEach (&lt;anonymous&gt;)
+    at expectArticles (C:\Users\MQ512QE\Desktop\Hackerrank_React\2\src\App.test.js:97:12)
+    at Object.&lt;anonymous&gt; (C:\Users\MQ512QE\Desktop\Hackerrank_React\2\src\App.test.js:110:3)
+    at Object.asyncFn (C:\Users\MQ512QE\Desktop\Hackerrank_React\2\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at C:\Users\MQ512QE\Desktop\Hackerrank_React\2\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\MQ512QE\Desktop\Hackerrank_React\2\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at C:\Users\MQ512QE\Desktop\Hackerrank_React\2\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname=" Clicking on top renders expected articles" name=" Clicking on top renders expected articles" time="0.047">
+    </testcase>
+    <testcase classname=" Clicking on newest renders expected articles" name=" Clicking on newest renders expected articles" time="0.023">
+      <failure>Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  [&quot;Simple text editor has 15k monthly users&quot;, &quot;83&quot;, &quot;2020-02-22&quot;]
+Received:
+  [&quot;Artificial Mountains&quot;, &quot;200&quot;, &quot;2019-11-23&quot;]
+
+Difference:
+
+- Expected
++ Received
+
+ Array [
+-  &quot;Simple text editor has 15k monthly users&quot;,
+-  &quot;83&quot;,
+-  &quot;2020-02-22&quot;,
++  &quot;Artificial Mountains&quot;,
++  &quot;200&quot;,
++  &quot;2019-11-23&quot;,
+ ]
+    at C:\Users\MQ512QE\Desktop\Hackerrank_React\2\src\App.test.js:102:36
+    at Array.forEach (&lt;anonymous&gt;)
+    at expectArticles (C:\Users\MQ512QE\Desktop\Hackerrank_React\2\src\App.test.js:97:12)
+    at Object.&lt;anonymous&gt; (C:\Users\MQ512QE\Desktop\Hackerrank_React\2\src\App.test.js:130:3)
+    at Object.asyncFn (C:\Users\MQ512QE\Desktop\Hackerrank_React\2\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at C:\Users\MQ512QE\Desktop\Hackerrank_React\2\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\MQ512QE\Desktop\Hackerrank_React\2\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at C:\Users\MQ512QE\Desktop\Hackerrank_React\2\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+    <testcase classname=" Sequence of navigation clicks renders expected artices" name=" Sequence of navigation clicks renders expected artices" time="0.023">
+      <failure>Error: expect(received).toEqual(expected)
+
+Expected value to equal:
+  [&quot;Simple text editor has 15k monthly users&quot;, &quot;83&quot;, &quot;2020-02-22&quot;]
+Received:
+  [&quot;Artificial Mountains&quot;, &quot;200&quot;, &quot;2019-11-23&quot;]
+
+Difference:
+
+- Expected
++ Received
+
+ Array [
+-  &quot;Simple text editor has 15k monthly users&quot;,
+-  &quot;83&quot;,
+-  &quot;2020-02-22&quot;,
++  &quot;Artificial Mountains&quot;,
++  &quot;200&quot;,
++  &quot;2019-11-23&quot;,
+ ]
+    at C:\Users\MQ512QE\Desktop\Hackerrank_React\2\src\App.test.js:102:36
+    at Array.forEach (&lt;anonymous&gt;)
+    at expectArticles (C:\Users\MQ512QE\Desktop\Hackerrank_React\2\src\App.test.js:97:12)
+    at Object.&lt;anonymous&gt; (C:\Users\MQ512QE\Desktop\Hackerrank_React\2\src\App.test.js:145:5)
+    at Object.asyncFn (C:\Users\MQ512QE\Desktop\Hackerrank_React\2\node_modules\jest-jasmine2\build\jasmine-async.js:68:30)
+    at C:\Users\MQ512QE\Desktop\Hackerrank_React\2\node_modules\jest-jasmine2\build\queueRunner.js:38:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\MQ512QE\Desktop\Hackerrank_React\2\node_modules\jest-jasmine2\build\queueRunner.js:31:21)
+    at C:\Users\MQ512QE\Desktop\Hackerrank_React\2\node_modules\p-map\index.js:46:16
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    </testcase>
+  </testsuite>
+</testsuites>
